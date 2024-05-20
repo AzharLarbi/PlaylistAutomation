@@ -33,21 +33,24 @@ Getting Started
 To use this project, follow these steps:
 
 Clone the Repository:
+```
 git clone https://github.com/yourusername/spotify-to-youtube-playlist-transfer.git
 cd spotify-to-youtube-playlist-transfer
-
+```
 Set Up Environment Variables:
 Create a .env file with your Spotify and YouTube API credentials.
-
+```
 CLIENT_ID=your_spotify_client_id
 CLIENT_SECRET=your_spotify_client_secret
-
+```
 Install Dependencies:
+```
 pip install -r requirements.txt
-
+```
 Run the Script:
+```
 python main.py
-
+```
 # Future Enhancements
 Improve the search algorithm to increase the accuracy of finding songs on YouTube.
 Add support for other music streaming platforms.
